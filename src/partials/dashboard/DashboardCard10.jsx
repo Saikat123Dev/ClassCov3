@@ -12,41 +12,41 @@ function DashboardCard10() {
     {
       id: '0',
       image: Image01,
-      name: 'Alex Shatov',
-      email: 'alexshatov@gmail.com',
-      location: '🇺🇸',
+      name: 'Mr Deepak Chakraborty',
+      email: 'English',
+     
       spent: '$2,890.66',
     },
     {
       id: '1',
       image: Image02,
-      name: 'Philip Harbach',
-      email: 'philip.h@gmail.com',
-      location: '🇩🇪',
+      name: 'Mrs Shilpa Rao',
+      email: 'Economics',
+      
       spent: '$2,767.04',
     },
     {
       id: '2',
       image: Image03,
-      name: 'Mirko Fisuk',
-      email: 'mirkofisuk@gmail.com',
-      location: '🇫🇷',
+      name: 'Mr Sujay Roy',
+      email: 'Science',
+     
       spent: '$2,996.00',
     },
     {
       id: '3',
       image: Image04,
-      name: 'Olga Semklo',
-      email: 'olga.s@cool.design',
-      location: '🇮🇹',
+      name: 'Mr Aman Gupta',
+      email: 'Mathematics',
+     
       spent: '$1,220.66',
     },
     {
       id: '4',
       image: Image05,
-      name: 'Burak Long',
-      email: 'longburak@gmail.com',
-      location: '🇬🇧',
+      name: 'Mrs Sakhshi Mallick',
+      email: 'Biology',
+   
       spent: '$1,890.66',
     },
   ];
@@ -54,7 +54,7 @@ function DashboardCard10() {
   return (
     <div className="col-span-full xl:col-span-6 bg-white dark:bg-slate-800 shadow-lg rounded-sm border border-slate-200 dark:border-slate-700">
       <header className="px-5 py-4 border-b border-slate-100 dark:border-slate-700">
-        <h2 className="font-semibold text-slate-800 dark:text-slate-100">Customers</h2>
+        <h2 className="font-semibold text-slate-800 dark:text-slate-100">Upcoming Classes</h2>
       </header>
       <div className="p-3">
 
@@ -68,13 +68,10 @@ function DashboardCard10() {
                   <div className="font-semibold text-left">Name</div>
                 </th>
                 <th className="p-2 whitespace-nowrap">
-                  <div className="font-semibold text-left">Email</div>
+                  <div className="font-semibold text-left">Subjects</div>
                 </th>
                 <th className="p-2 whitespace-nowrap">
-                  <div className="font-semibold text-left">Spent</div>
-                </th>
-                <th className="p-2 whitespace-nowrap">
-                  <div className="font-semibold text-center">Country</div>
+                  <div className="font-semibold text-left">Time</div>
                 </th>
               </tr>
             </thead>
